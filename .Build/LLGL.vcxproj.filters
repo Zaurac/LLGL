@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Barrier.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Blob.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Exception.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Float16Compressor.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Helper.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Image.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\ImageFlags.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\ImageUtils.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Input.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Interface.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Log.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Strings.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Types.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Utility.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Vendor.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Version.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Canvas.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Display.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\DisplayFlags.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Timer.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Window.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\MapKey.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Display.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Module.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Timer.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Window.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32WindowCallback.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32WindowClass.cpp">
+      <Filter>Sources\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\BasicPipelineLayout.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Buffer.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\BufferArray.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\BufferFlags.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\BufferUtils.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DescriptorHelper.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Format.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\PipelineStateFlags.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\PipelineStateUtils.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\QueryHeap.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderContext.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderContextFlags.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderSystem.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderSystemFlags.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderTarget.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderingDebugger.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderingProfiler.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\ResourceBindingIterator.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Sampler.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Serialization.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Shader.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\ShaderFlags.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\ShaderProgram.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\StaticAssertions.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\StaticModuleInterface.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Texture.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\TextureFlags.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\TextureUtils.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\VertexAttribute.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\VertexFormat.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgBuffer.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgBufferArray.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCommandBuffer.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCommandQueue.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgPipelineLayout.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgPipelineState.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgQueryHeap.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgQueryTimerManager.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderContext.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderSystem.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderTarget.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgResourceHeap.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgShader.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgShaderProgram.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgTexture.cpp">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Blob.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Buffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\BufferArray.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\BufferFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Canvas.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\CanvasFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Color.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ColorRGB.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ColorRGBA.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\CommandBuffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\CommandBufferFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\CommandQueue.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Constants.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Display.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\DisplayFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Export.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Fence.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Format.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ForwardDecls.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\FragmentAttribute.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Image.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ImageFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\IndirectArguments.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Input.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Interface.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\InterfaceID.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Key.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\LLGL.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Log.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\NonCopyable.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\PipelineLayout.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\PipelineLayoutFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\PipelineState.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\PipelineStateFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\QueryHeap.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\QueryHeapFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderContext.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderContextFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderPass.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderPassFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderSystem.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderSystemChild.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderSystemFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderTarget.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderTargetFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RendererConfiguration.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderingDebugger.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderingProfiler.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Resource.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ResourceFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ResourceHeap.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ResourceHeapFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Sampler.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\SamplerFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Shader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ShaderFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ShaderProgram.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ShaderProgramFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\StaticLimits.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Strings.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Surface.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\SystemValue.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Tags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Texture.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\TextureFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Timer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\TypeInfo.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Types.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Utility.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Version.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\VertexAttribute.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\VertexFormat.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\VideoAdapter.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Window.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\WindowFlags.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Platform\NativeHandle.h">
+      <Filter>Include\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Platform\Platform.h">
+      <Filter>Include\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Platform\Win32\Win32NativeHandle.h">
+      <Filter>Include\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Assertion.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Barrier.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\ByteBufferIterator.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\ContainerUtils.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Exception.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Float16Compressor.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Helper.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\HelperMacros.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\ImageUtils.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\ImmutableString.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\LinearStringContainer.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Vendor.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\VersionMacros.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Module.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\MapKey.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Display.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32LeanAndMean.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Module.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Timer.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Window.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32WindowCallback.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32WindowClass.h">
+      <Filter>Sources\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\BasicPipelineLayout.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\BufferUtils.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\BuildID.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\CheckedCast.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\ContainerTypes.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DescriptorHelper.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DynamicModuleInterface.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\ModuleInterface.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\PipelineStateUtils.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderSystemUtils.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\ResourceBindingIterator.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Serialization.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\StaticAssertions.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\StaticModuleInterface.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\TextureUtils.h">
+      <Filter>Sources\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgBuffer.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgBufferArray.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCommandBuffer.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCommandQueue.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCore.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgPipelineLayout.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgPipelineState.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgQueryHeap.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgQueryTimerManager.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderContext.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderSystem.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderTarget.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgResourceHeap.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgShader.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgShaderProgram.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgTexture.h">
+      <Filter>Sources\Renderer\DebugLayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\otherGameEngine\LLGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{100E1EC1-F9D0-3B2D-92CC-B8DED573EFF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Platform">
+      <UniqueIdentifier>{CFDC5FC4-1614-3984-9FE2-3FF199165156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{8DAE8628-AB1D-3CF0-AE9A-D3E2E64F284A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Core">
+      <UniqueIdentifier>{4FB641D4-8014-3166-AE3B-316F529C2A87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Platform">
+      <UniqueIdentifier>{C78846E2-A181-3B9C-BC94-0BCA6D68CABA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Renderer">
+      <UniqueIdentifier>{2B396DD1-A5CF-3DED-8E4D-DFFE9F042AAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Renderer\DebugLayer">
+      <UniqueIdentifier>{83AA169B-55F9-3060-96AB-685336472EC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

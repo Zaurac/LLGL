@@ -8,6 +8,7 @@
 #include "Win32Module.h"
 #include "../../Core/Helper.h"
 
+#include <iostream>
 
 namespace LLGL
 {
@@ -78,6 +79,7 @@ Win32Module::~Win32Module()
 
 void* Win32Module::LoadProcedure(const char* procedureName)
 {
+    
     /* Get procedure address from library module and return it as raw-pointer */
     auto procAddr = GetProcAddress(handle_, procedureName);
     return reinterpret_cast<void*>(procAddr);

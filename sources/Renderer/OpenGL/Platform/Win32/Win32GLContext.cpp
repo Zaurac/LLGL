@@ -269,6 +269,8 @@ HGLRC Win32GLContext::CreateGLContext(const WGLContextParams& params, bool useEx
     if (!renderContext)
         return 0;
 
+    
+
     /* Activate new render context */
     if (wglMakeCurrent(hDC_, renderContext) != TRUE)
     {

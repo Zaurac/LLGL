@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKCommandBuffer.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKCommandQueue.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKContainers.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKCore.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKDevice.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKInitializers.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKModuleInterface.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKPhysicalDevice.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKRenderContext.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKRenderSystem.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKTypes.cpp">
+      <Filter>Sources\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Buffer\VKBuffer.cpp">
+      <Filter>Sources\Vulkan\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Buffer\VKBufferArray.cpp">
+      <Filter>Sources\Vulkan\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Buffer\VKDeviceBuffer.cpp">
+      <Filter>Sources\Vulkan\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Ext\VKExtensionLoader.cpp">
+      <Filter>Sources\Vulkan\Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Ext\VKExtensionRegistry.cpp">
+      <Filter>Sources\Vulkan\Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Ext\VKExtensions.cpp">
+      <Filter>Sources\Vulkan\Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Memory\VKDeviceMemory.cpp">
+      <Filter>Sources\Vulkan\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Memory\VKDeviceMemoryManager.cpp">
+      <Filter>Sources\Vulkan\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Memory\VKDeviceMemoryRegion.cpp">
+      <Filter>Sources\Vulkan\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKComputePSO.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKFence.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKGraphicsPSO.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKPipelineBarrier.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKPipelineLayout.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKPipelineState.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKPredicateQueryHeap.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKQueryHeap.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKRenderPass.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKResourceHeap.cpp">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Shader\VKShader.cpp">
+      <Filter>Sources\Vulkan\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Shader\VKShaderProgram.cpp">
+      <Filter>Sources\Vulkan\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKColorBuffer.cpp">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKDepthStencilBuffer.cpp">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKDeviceImage.cpp">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKRenderBuffer.cpp">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKRenderTarget.cpp">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKSampler.cpp">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKTexture.cpp">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKCommandBuffer.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKCommandQueue.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKContainers.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKCore.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKDevice.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKInitializers.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKPhysicalDevice.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKPtr.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKRenderContext.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKRenderSystem.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\VKTypes.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Vulkan.h">
+      <Filter>Sources\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Buffer\VKBuffer.h">
+      <Filter>Sources\Vulkan\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Buffer\VKBufferArray.h">
+      <Filter>Sources\Vulkan\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Buffer\VKDeviceBuffer.h">
+      <Filter>Sources\Vulkan\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Ext\VKExtensionLoader.h">
+      <Filter>Sources\Vulkan\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Ext\VKExtensionRegistry.h">
+      <Filter>Sources\Vulkan\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Ext\VKExtensions.h">
+      <Filter>Sources\Vulkan\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Ext\VKExtensionsDecl.inl">
+      <Filter>Sources\Vulkan\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Memory\VKDeviceMemory.h">
+      <Filter>Sources\Vulkan\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Memory\VKDeviceMemoryManager.h">
+      <Filter>Sources\Vulkan\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Memory\VKDeviceMemoryRegion.h">
+      <Filter>Sources\Vulkan\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKComputePSO.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKFence.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKGraphicsPSO.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKPipelineBarrier.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKPipelineLayout.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKPipelineState.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKPredicateQueryHeap.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKQueryHeap.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKRenderPass.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\RenderState\VKResourceHeap.h">
+      <Filter>Sources\Vulkan\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Shader\VKShader.h">
+      <Filter>Sources\Vulkan\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Shader\VKShaderProgram.h">
+      <Filter>Sources\Vulkan\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKColorBuffer.h">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKDepthStencilBuffer.h">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKDeviceImage.h">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKRenderBuffer.h">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKRenderTarget.h">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKSampler.h">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Vulkan\Texture\VKTexture.h">
+      <Filter>Sources\Vulkan\Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\otherGameEngine\LLGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{8DAE8628-AB1D-3CF0-AE9A-D3E2E64F284A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vulkan">
+      <UniqueIdentifier>{95E9CA32-B842-32D2-9FEE-72BFEA3C756C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vulkan\Buffer">
+      <UniqueIdentifier>{8874C3B6-427B-31B1-94D6-0B140FA8064F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vulkan\Ext">
+      <UniqueIdentifier>{64D59259-D53C-3850-B394-2FC4891040CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vulkan\Memory">
+      <UniqueIdentifier>{C5B1A28F-24BA-3015-8F0C-4098B1A2DE2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vulkan\RenderState">
+      <UniqueIdentifier>{7FAAF222-6336-3378-A70D-2BDFF6B71945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vulkan\Shader">
+      <UniqueIdentifier>{2AC6174D-B5A1-371C-B690-D7E998716C93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vulkan\Texture">
+      <UniqueIdentifier>{AC688465-FF12-3373-9ABC-E0039FCD37B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

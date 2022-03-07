@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>A:\otherGameEngine\LLGL\.Build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>A:\otherGameEngine\LLGL\.Build\build\Debug\LLGLD.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>A:\otherGameEngine\LLGL\.Build\build\Debug\LLGL_Direct3D12D.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

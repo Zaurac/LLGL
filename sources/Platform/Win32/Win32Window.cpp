@@ -260,6 +260,8 @@ WindowDescriptor Win32Window::GetDesc() const
 
     desc.windowContext          = (contextHandle_.parentWindow != 0 ? (&contextHandle_) : nullptr);
 
+    desc.hwnd = wnd_;
+
     return desc;
 }
 

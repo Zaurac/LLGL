@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCore.cpp">
+      <Filter>Sources\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLModuleInterface.cpp">
+      <Filter>Sources\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLObjectUtils.cpp">
+      <Filter>Sources\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLRenderContext.cpp">
+      <Filter>Sources\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLRenderSystem.cpp">
+      <Filter>Sources\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLStaticAssertions.cpp">
+      <Filter>Sources\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLTypes.cpp">
+      <Filter>Sources\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GL2XVertexArray.cpp">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLBuffer.cpp">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLBufferArray.cpp">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLBufferArrayWithVAO.cpp">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLBufferWithVAO.cpp">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLVertexArrayObject.cpp">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandAssembler.cpp">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandBuffer.cpp">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandExecutor.cpp">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandQueue.cpp">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLDeferredCommandBuffer.cpp">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLImmediateCommandBuffer.cpp">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Ext\GLExtensionRegistry.cpp">
+      <Filter>Sources\OpenGL\Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Platform\Win32\Win32GLContext.cpp">
+      <Filter>Sources\OpenGL\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Platform\GLContext.cpp">
+      <Filter>Sources\OpenGL\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLBlendState.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLComputePSO.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLDepthStencilState.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLFence.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLGraphicsPSO.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLPipelineState.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLQueryHeap.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLRasterizerState.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLRenderPass.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLResourceHeap.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLStateManager.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLStatePool.cpp">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Shader\GLShader.cpp">
+      <Filter>Sources\OpenGL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Shader\GLShaderBindingLayout.cpp">
+      <Filter>Sources\OpenGL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Shader\GLShaderProgram.cpp">
+      <Filter>Sources\OpenGL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Shader\GLShaderUniform.cpp">
+      <Filter>Sources\OpenGL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GL2XSampler.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLFramebuffer.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLMipGenerator.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLReadTextureFBO.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLRenderTarget.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLRenderbuffer.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLSampler.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTexImage.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTexSubImage.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTexture.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTextureSubImage.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTextureViewPool.cpp">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreExtensionLoader.cpp">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreExtensions.cpp">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreExtensionsProxy.cpp">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreProfile.cpp">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreProfileCaps.cpp">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui.cpp">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_demo.cpp">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_draw.cpp">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_tables.cpp">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_widgets.cpp">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCore.h">
+      <Filter>Sources\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLObjectUtils.h">
+      <Filter>Sources\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLProfile.h">
+      <Filter>Sources\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLRenderContext.h">
+      <Filter>Sources\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLRenderSystem.h">
+      <Filter>Sources\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLRenderingCaps.h">
+      <Filter>Sources\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLTypes.h">
+      <Filter>Sources\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\OpenGL.h">
+      <Filter>Sources\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GL2XVertexArray.h">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLBuffer.h">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLBufferArray.h">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLBufferArrayWithVAO.h">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLBufferWithVAO.h">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Buffer\GLVertexArrayObject.h">
+      <Filter>Sources\OpenGL\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommand.h">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandAssembler.h">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandBuffer.h">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandExecutor.h">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandOpcode.h">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLCommandQueue.h">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLDeferredCommandBuffer.h">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Command\GLImmediateCommandBuffer.h">
+      <Filter>Sources\OpenGL\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Ext\GLExtensionLoader.h">
+      <Filter>Sources\OpenGL\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Ext\GLExtensionRegistry.h">
+      <Filter>Sources\OpenGL\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Ext\GLExtensions.h">
+      <Filter>Sources\OpenGL\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Platform\Win32\Win32GLContext.h">
+      <Filter>Sources\OpenGL\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Platform\GLContext.h">
+      <Filter>Sources\OpenGL\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLBlendState.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLComputePSO.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLContextState.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLDepthStencilState.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLFence.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLGraphicsPSO.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLPipelineLayout.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLPipelineState.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLQueryHeap.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLRasterizerState.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLRenderPass.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLResourceHeap.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLState.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLStateManager.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\RenderState\GLStatePool.h">
+      <Filter>Sources\OpenGL\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Shader\GLShader.h">
+      <Filter>Sources\OpenGL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Shader\GLShaderBindingLayout.h">
+      <Filter>Sources\OpenGL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Shader\GLShaderProgram.h">
+      <Filter>Sources\OpenGL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Shader\GLShaderUniform.h">
+      <Filter>Sources\OpenGL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GL2XSampler.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLFramebuffer.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLMipGenerator.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLReadTextureFBO.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLRenderTarget.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLRenderbuffer.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLSampler.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTexImage.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTexSubImage.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTexture.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTextureSubImage.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\Texture\GLTextureViewPool.h">
+      <Filter>Sources\OpenGL\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreExtensions.h">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreExtensionsDecl.inl">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreExtensionsProxy.h">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\GLCoreProfileTypes.h">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\OpenGL\GLCoreProfile\OpenGLCore.h">
+      <Filter>Sources\OpenGL\GLCoreProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_win32.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imconfig.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imgui.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imgui_internal.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_rectpack.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_textedit.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_truetype.h">
+      <Filter>Sources\OpenGL\Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\otherGameEngine\LLGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{8DAE8628-AB1D-3CF0-AE9A-D3E2E64F284A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL">
+      <UniqueIdentifier>{5DCDC0C6-85E3-3C88-9B76-CCA2D10BBAC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\Buffer">
+      <UniqueIdentifier>{7034BB48-2C98-313F-887B-0B74340A85F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\Command">
+      <UniqueIdentifier>{CA73A71E-6CA2-32A0-AE20-E1F7A7C69630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\Ext">
+      <UniqueIdentifier>{9FFF647E-4EA3-3FE9-8FB2-B420B911B458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\GLCoreProfile">
+      <UniqueIdentifier>{680FC29B-50BF-38E4-840C-0AD9F56F427E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\Platform">
+      <UniqueIdentifier>{E71666B7-F963-3FEA-BD82-9BF0188C1790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\RenderState">
+      <UniqueIdentifier>{AE425F6C-2E91-3777-ADEA-4E79A477B915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\Shader">
+      <UniqueIdentifier>{A8AA1D3D-2609-3855-B192-AD8C18D61E57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\Texture">
+      <UniqueIdentifier>{8DEC6D28-69DE-3014-BABA-E8D32830B9DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpenGL\Imgui">
+      <UniqueIdentifier>{1bd32f23-6e00-45b4-b07e-51b32b963299}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9ED10321-CDBC-3C27-BC72-BE98B31E9541}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>LLGL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\otherGameEngine\LLGL\.Build\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLGL.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLGLD</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A:\otherGameEngine\LLGL\.Build\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLGL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLGL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A:\otherGameEngine\LLGL\.Build\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLGL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLGL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A:\otherGameEngine\LLGL\.Build\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLGL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLGL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4251;4290;4103</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LLGL_DEBUG;LLGL_ENABLE_CHECKED_CAST;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;NOMINMAX;LLGL_ENABLE_DEBUG_LAYER;LLGL_ENABLE_UTILITY;LLGL_GL_ENABLE_EXT_PLACEHOLDERS;LLGL_GL_ENABLE_VENDOR_EXT;LLGL_GL_ENABLE_DSA_EXT;LLGL_D3D11_ENABLE_FEATURELEVEL=3;LLGL_BUILD_RENDERER_OPENGL;LLGL_BUILD_RENDERER_VULKAN;LLGL_BUILD_RENDERER_DIRECT3D11;LLGL_BUILD_RENDERER_DIRECT3D12;CMAKE_INTDIR="Debug";LLGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LLGL_DEBUG;LLGL_ENABLE_CHECKED_CAST;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;NOMINMAX;LLGL_ENABLE_DEBUG_LAYER;LLGL_ENABLE_UTILITY;LLGL_GL_ENABLE_EXT_PLACEHOLDERS;LLGL_GL_ENABLE_VENDOR_EXT;LLGL_GL_ENABLE_DSA_EXT;LLGL_D3D11_ENABLE_FEATURELEVEL=3;LLGL_BUILD_RENDERER_OPENGL;LLGL_BUILD_RENDERER_VULKAN;LLGL_BUILD_RENDERER_DIRECT3D11;LLGL_BUILD_RENDERER_DIRECT3D12;CMAKE_INTDIR=\"Debug\";LLGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>A:/otherGameEngine/LLGL/.Build/build/Debug/LLGLD.lib</ImportLibrary>
+      <ProgramDataBaseFile>A:/otherGameEngine/LLGL/.Build/build/Debug/LLGLD.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4250;4251;4290;4103</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;NOMINMAX;LLGL_ENABLE_DEBUG_LAYER;LLGL_ENABLE_UTILITY;LLGL_GL_ENABLE_EXT_PLACEHOLDERS;LLGL_GL_ENABLE_VENDOR_EXT;LLGL_GL_ENABLE_DSA_EXT;LLGL_D3D11_ENABLE_FEATURELEVEL=3;LLGL_BUILD_RENDERER_OPENGL;LLGL_BUILD_RENDERER_VULKAN;LLGL_BUILD_RENDERER_DIRECT3D11;LLGL_BUILD_RENDERER_DIRECT3D12;CMAKE_INTDIR="Release";LLGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;NOMINMAX;LLGL_ENABLE_DEBUG_LAYER;LLGL_ENABLE_UTILITY;LLGL_GL_ENABLE_EXT_PLACEHOLDERS;LLGL_GL_ENABLE_VENDOR_EXT;LLGL_GL_ENABLE_DSA_EXT;LLGL_D3D11_ENABLE_FEATURELEVEL=3;LLGL_BUILD_RENDERER_OPENGL;LLGL_BUILD_RENDERER_VULKAN;LLGL_BUILD_RENDERER_DIRECT3D11;LLGL_BUILD_RENDERER_DIRECT3D12;CMAKE_INTDIR=\"Release\";LLGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>A:/otherGameEngine/LLGL/.Build/build/Release/LLGL.lib</ImportLibrary>
+      <ProgramDataBaseFile>A:/otherGameEngine/LLGL/.Build/build/Release/LLGL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4250;4251;4290;4103</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;NOMINMAX;LLGL_ENABLE_DEBUG_LAYER;LLGL_ENABLE_UTILITY;LLGL_GL_ENABLE_EXT_PLACEHOLDERS;LLGL_GL_ENABLE_VENDOR_EXT;LLGL_GL_ENABLE_DSA_EXT;LLGL_D3D11_ENABLE_FEATURELEVEL=3;LLGL_BUILD_RENDERER_OPENGL;LLGL_BUILD_RENDERER_VULKAN;LLGL_BUILD_RENDERER_DIRECT3D11;LLGL_BUILD_RENDERER_DIRECT3D12;CMAKE_INTDIR="MinSizeRel";LLGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;NOMINMAX;LLGL_ENABLE_DEBUG_LAYER;LLGL_ENABLE_UTILITY;LLGL_GL_ENABLE_EXT_PLACEHOLDERS;LLGL_GL_ENABLE_VENDOR_EXT;LLGL_GL_ENABLE_DSA_EXT;LLGL_D3D11_ENABLE_FEATURELEVEL=3;LLGL_BUILD_RENDERER_OPENGL;LLGL_BUILD_RENDERER_VULKAN;LLGL_BUILD_RENDERER_DIRECT3D11;LLGL_BUILD_RENDERER_DIRECT3D12;CMAKE_INTDIR=\"MinSizeRel\";LLGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>A:/otherGameEngine/LLGL/.Build/build/MinSizeRel/LLGL.lib</ImportLibrary>
+      <ProgramDataBaseFile>A:/otherGameEngine/LLGL/.Build/build/MinSizeRel/LLGL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4251;4290;4103</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;NOMINMAX;LLGL_ENABLE_DEBUG_LAYER;LLGL_ENABLE_UTILITY;LLGL_GL_ENABLE_EXT_PLACEHOLDERS;LLGL_GL_ENABLE_VENDOR_EXT;LLGL_GL_ENABLE_DSA_EXT;LLGL_D3D11_ENABLE_FEATURELEVEL=3;LLGL_BUILD_RENDERER_OPENGL;LLGL_BUILD_RENDERER_VULKAN;LLGL_BUILD_RENDERER_DIRECT3D11;LLGL_BUILD_RENDERER_DIRECT3D12;CMAKE_INTDIR="RelWithDebInfo";LLGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;NOMINMAX;LLGL_ENABLE_DEBUG_LAYER;LLGL_ENABLE_UTILITY;LLGL_GL_ENABLE_EXT_PLACEHOLDERS;LLGL_GL_ENABLE_VENDOR_EXT;LLGL_GL_ENABLE_DSA_EXT;LLGL_D3D11_ENABLE_FEATURELEVEL=3;LLGL_BUILD_RENDERER_OPENGL;LLGL_BUILD_RENDERER_VULKAN;LLGL_BUILD_RENDERER_DIRECT3D11;LLGL_BUILD_RENDERER_DIRECT3D12;CMAKE_INTDIR=\"RelWithDebInfo\";LLGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>A:\otherGameEngine\LLGL\include;A:\otherGameEngine\LLGL\external\OpenGL\include;A:\otherGameEngine\API\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>A:/otherGameEngine/LLGL/.Build/build/RelWithDebInfo/LLGL.lib</ImportLibrary>
+      <ProgramDataBaseFile>A:/otherGameEngine/LLGL/.Build/build/RelWithDebInfo/LLGL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\otherGameEngine\LLGL\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule A:/otherGameEngine/LLGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+A:\CMake\bin\cmake.exe -SA:/otherGameEngine/LLGL -BA:/otherGameEngine/LLGL/.Build --check-stamp-file A:/otherGameEngine/LLGL/.Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;A:\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;A:\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;A:\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;A:\CMake\share\cmake-3.20\Modules\FindVulkan.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeCCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeCXXCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeRCCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeSystem.cmake;A:\otherGameEngine\LLGL\cmake\FindGaussianLib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\otherGameEngine\LLGL\.Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule A:/otherGameEngine/LLGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+A:\CMake\bin\cmake.exe -SA:/otherGameEngine/LLGL -BA:/otherGameEngine/LLGL/.Build --check-stamp-file A:/otherGameEngine/LLGL/.Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A:\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;A:\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;A:\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;A:\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;A:\CMake\share\cmake-3.20\Modules\FindVulkan.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeCCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeCXXCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeRCCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeSystem.cmake;A:\otherGameEngine\LLGL\cmake\FindGaussianLib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A:\otherGameEngine\LLGL\.Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule A:/otherGameEngine/LLGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+A:\CMake\bin\cmake.exe -SA:/otherGameEngine/LLGL -BA:/otherGameEngine/LLGL/.Build --check-stamp-file A:/otherGameEngine/LLGL/.Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A:\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;A:\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;A:\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;A:\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;A:\CMake\share\cmake-3.20\Modules\FindVulkan.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeCCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeCXXCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeRCCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeSystem.cmake;A:\otherGameEngine\LLGL\cmake\FindGaussianLib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A:\otherGameEngine\LLGL\.Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule A:/otherGameEngine/LLGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+A:\CMake\bin\cmake.exe -SA:/otherGameEngine/LLGL -BA:/otherGameEngine/LLGL/.Build --check-stamp-file A:/otherGameEngine/LLGL/.Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A:\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;A:\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;A:\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;A:\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;A:\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;A:\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;A:\CMake\share\cmake-3.20\Modules\FindVulkan.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;A:\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeCCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeCXXCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeRCCompiler.cmake;A:\otherGameEngine\LLGL\.Build\CMakeFiles\3.20.6\CMakeSystem.cmake;A:\otherGameEngine\LLGL\cmake\FindGaussianLib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A:\otherGameEngine\LLGL\.Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Blob.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Buffer.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\BufferArray.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\BufferFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Canvas.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\CanvasFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Color.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ColorRGB.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ColorRGBA.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\CommandBuffer.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\CommandBufferFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\CommandQueue.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Constants.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Display.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\DisplayFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Export.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Fence.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Format.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ForwardDecls.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\FragmentAttribute.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Image.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ImageFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\IndirectArguments.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Input.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Interface.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\InterfaceID.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Key.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\LLGL.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Log.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\NonCopyable.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\PipelineLayout.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\PipelineLayoutFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\PipelineState.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\PipelineStateFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\QueryHeap.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\QueryHeapFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderContext.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderContextFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderPass.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderPassFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderSystem.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderSystemChild.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderSystemFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderTarget.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderTargetFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RendererConfiguration.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderingDebugger.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\RenderingProfiler.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Resource.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ResourceFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ResourceHeap.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ResourceHeapFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Sampler.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\SamplerFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Shader.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ShaderFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ShaderProgram.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\ShaderProgramFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\StaticLimits.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Strings.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Surface.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\SystemValue.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Tags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Texture.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\TextureFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Timer.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\TypeInfo.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Types.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Utility.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Version.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\VertexAttribute.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\VertexFormat.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\VideoAdapter.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Window.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\WindowFlags.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Platform\NativeHandle.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Platform\Platform.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\include\LLGL\Platform\Win32\Win32NativeHandle.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Assertion.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Barrier.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Barrier.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Blob.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\ByteBufferIterator.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\ContainerUtils.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Exception.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Exception.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Float16Compressor.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Float16Compressor.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Helper.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Helper.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\HelperMacros.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Image.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\ImageFlags.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\ImageUtils.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\ImageUtils.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\ImmutableString.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Input.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Interface.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\LinearStringContainer.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Log.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Strings.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Types.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Utility.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Vendor.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\Vendor.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Core\Version.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Core\VersionMacros.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Canvas.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Display.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\DisplayFlags.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Module.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Timer.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Window.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\MapKey.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\MapKey.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Display.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Display.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32LeanAndMean.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Module.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Module.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Timer.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Timer.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Window.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32Window.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32WindowCallback.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32WindowCallback.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32WindowClass.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Platform\Win32\Win32WindowClass.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\BasicPipelineLayout.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\BasicPipelineLayout.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Buffer.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\BufferArray.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\BufferFlags.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\BufferUtils.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\BufferUtils.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\BuildID.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\CheckedCast.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\ContainerTypes.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DescriptorHelper.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DescriptorHelper.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DynamicModuleInterface.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Format.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\ModuleInterface.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\PipelineStateFlags.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\PipelineStateUtils.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\PipelineStateUtils.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\QueryHeap.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderContext.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderContextFlags.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderSystem.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderSystemFlags.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderSystemUtils.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderTarget.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderingDebugger.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\RenderingProfiler.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\ResourceBindingIterator.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\ResourceBindingIterator.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Sampler.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Serialization.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Serialization.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Shader.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\ShaderFlags.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\ShaderProgram.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\StaticAssertions.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\StaticAssertions.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\StaticModuleInterface.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\StaticModuleInterface.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Texture.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\TextureFlags.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\TextureUtils.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\TextureUtils.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\VertexAttribute.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\VertexFormat.cpp" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgBuffer.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgBuffer.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgBufferArray.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgBufferArray.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCommandBuffer.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCommandBuffer.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCommandQueue.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCommandQueue.h" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgCore.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgPipelineLayout.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgPipelineLayout.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgPipelineState.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgPipelineState.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgQueryHeap.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgQueryHeap.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgQueryTimerManager.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgQueryTimerManager.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderContext.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderContext.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderSystem.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderSystem.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderTarget.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgRenderTarget.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgResourceHeap.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgResourceHeap.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgShader.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgShader.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgShaderProgram.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgShaderProgram.h" />
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgTexture.cpp" />
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DebugLayer\DbgTexture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="A:\otherGameEngine\LLGL\.Build\ZERO_CHECK.vcxproj">
+      <Project>{3A0E0BB7-F676-3330-B1BB-B3DBDA796EFE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

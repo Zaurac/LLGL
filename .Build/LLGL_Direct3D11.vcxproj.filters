@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11CommandBuffer.cpp">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11CommandQueue.cpp">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11ModuleInterface.cpp">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11ObjectUtils.cpp">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11RenderContext.cpp">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11RenderSystem.cpp">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11ResourceFlags.cpp">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11Types.cpp">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11Buffer.cpp">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11BufferArray.cpp">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11BufferWithRV.cpp">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11IntermediateBuffer.cpp">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11IntermediateBufferPool.cpp">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Shader\D3D11BuiltinShaderFactory.cpp">
+      <Filter>Sources\Direct3D11\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Shader\D3D11Shader.cpp">
+      <Filter>Sources\Direct3D11\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Shader\D3D11ShaderProgram.cpp">
+      <Filter>Sources\Direct3D11\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11ComputePSO.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11Fence.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11GraphicsPSO.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11GraphicsPSO1.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11GraphicsPSO3.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11GraphicsPSOBase.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11QueryHeap.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11RenderPass.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11ResourceHeap.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11StateManager.cpp">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Texture\D3D11MipGenerator.cpp">
+      <Filter>Sources\Direct3D11\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Texture\D3D11RenderTarget.cpp">
+      <Filter>Sources\Direct3D11\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Texture\D3D11Sampler.cpp">
+      <Filter>Sources\Direct3D11\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Texture\D3D11Texture.cpp">
+      <Filter>Sources\Direct3D11\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DXCommon\DXBlob.cpp">
+      <Filter>Sources\DXCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DXCommon\DXCore.cpp">
+      <Filter>Sources\DXCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\DXCommon\DXTypes.cpp">
+      <Filter>Sources\DXCommon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11CommandBuffer.h">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11CommandQueue.h">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11ObjectUtils.h">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11RenderContext.h">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11RenderSystem.h">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11ResourceFlags.h">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\D3D11Types.h">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Direct3D11.h">
+      <Filter>Sources\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11Buffer.h">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11BufferArray.h">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11BufferWithRV.h">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11IntermediateBuffer.h">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Buffer\D3D11IntermediateBufferPool.h">
+      <Filter>Sources\Direct3D11\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Shader\D3D11BuiltinShaderFactory.h">
+      <Filter>Sources\Direct3D11\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Shader\D3D11Shader.h">
+      <Filter>Sources\Direct3D11\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Shader\D3D11ShaderProgram.h">
+      <Filter>Sources\Direct3D11\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Shader\Builtin\D3D11Builtin.h">
+      <Filter>Sources\Direct3D11\Shader\Builtin</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11ComputePSO.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11Fence.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11GraphicsPSO.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11GraphicsPSO1.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11GraphicsPSO3.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11GraphicsPSOBase.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11PipelineLayout.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11PipelineState.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11QueryHeap.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11RenderPass.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11ResourceHeap.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\RenderState\D3D11StateManager.h">
+      <Filter>Sources\Direct3D11\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Texture\D3D11MipGenerator.h">
+      <Filter>Sources\Direct3D11\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Texture\D3D11RenderTarget.h">
+      <Filter>Sources\Direct3D11\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Texture\D3D11Sampler.h">
+      <Filter>Sources\Direct3D11\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Texture\D3D11Texture.h">
+      <Filter>Sources\Direct3D11\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DXCommon\ComPtr.h">
+      <Filter>Sources\DXCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DXCommon\DXBlob.h">
+      <Filter>Sources\DXCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DXCommon\DXCore.h">
+      <Filter>Sources\DXCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="A:\otherGameEngine\LLGL\sources\Renderer\DXCommon\DXTypes.h">
+      <Filter>Sources\DXCommon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\otherGameEngine\LLGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="A:\otherGameEngine\LLGL\sources\Renderer\Direct3D11\Shader\Builtin\D3D11Builtin.rc">
+      <Filter>Sources\Direct3D11\Shader\Builtin</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{8DAE8628-AB1D-3CF0-AE9A-D3E2E64F284A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\DXCommon">
+      <UniqueIdentifier>{AC34E7AF-F20D-3BDB-B97C-BC54A82A125C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Direct3D11">
+      <UniqueIdentifier>{B961A6CD-AB75-35F0-8F92-BAAC246F3A12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Direct3D11\Buffer">
+      <UniqueIdentifier>{C2BD7C27-8BA7-3558-8011-B65B67A6F40C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Direct3D11\RenderState">
+      <UniqueIdentifier>{2DB58178-4C66-3C23-8FE4-B2CC940B4268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Direct3D11\Shader">
+      <UniqueIdentifier>{2A424A05-8E33-310C-9881-F24DFC078B69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Direct3D11\Shader\Builtin">
+      <UniqueIdentifier>{DC26CD3A-8142-3F2B-A0F3-38A82F339664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Direct3D11\Texture">
+      <UniqueIdentifier>{FB19B9B3-4501-382E-B396-E61F1414FAED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

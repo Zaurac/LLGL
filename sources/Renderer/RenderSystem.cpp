@@ -111,6 +111,7 @@ static std::string LoadRenderSystemName(Module& module, const RenderSystemDescri
     /* Load "LLGL_RenderSystem_Name" procedure */
     LLGL_PROC_INTERFACE(const char*, PFN_RENDERSYSTEM_NAME, (const void*));
 
+
     if (auto RenderSystem_Name = reinterpret_cast<PFN_RENDERSYSTEM_NAME>(module.LoadProcedure("LLGL_RenderSystem_Name")))
         return RenderSystem_Name(&renderSystemDesc);
     else

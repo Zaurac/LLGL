@@ -13,6 +13,8 @@
 #include "Constants.h"
 #include <string>
 #include <cstdint>
+#include <windows.h>
+
 
 
 namespace LLGL
@@ -94,6 +96,9 @@ struct WindowDescriptor
     \endcode
     */
     const void*     windowContext       = nullptr;
+
+    //! Return current context.
+    HWND hwnd;
 };
 
 /**
